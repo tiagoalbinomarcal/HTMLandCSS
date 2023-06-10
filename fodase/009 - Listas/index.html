@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas e Links</title>
+ </head>
+ <body>
+    <h1> Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="a"> <!--ordened lists-->
+        <li>coisa 1</li>
+        <li>coisa 2</li>
+        <li>coisa 3</li>
+        <li>coisa 4</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="circle"> <!--unordened lists-->
+        <li>coisa 1</li>
+        <li>coisa 2</li>
+        <li>coisa 3</li>
+        <li>coisa 4</li>
+    </ul>
+    <h2>Meus desenhos/series favoritos</h2>
+    <ol>
+        <li>Antigos</li>
+        <ol type="a">
+            <li><a href="livro/FME  volume 1.pdf" download="FME Volume 1.pdf" type="application/pdf">Chaves</a></li> <!--iana.org/assignments/media-types/-->
+            <li>Pica Pau</li>
+            <li>Tom e Jerry</li>
+            <li>Ben 10</li>
+        </ol>
+        <li>Novos</li>
+        <ol type="a" start="5"> <!--A contagem é númerica, não adianta colocar letr-->
+            <li>Adventure Time</li>
+            <li>Apenas um show</li>
+            <li>Incrível Mundo de Gumball</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2> <!--aninhamento importante para criação de menus-->
+    <ol>
+        <li>Online</li>
+        <ul type="disc">
+            <li>CSGO</li>
+            <li>League of legends</li>
+            <ul type="circle">
+                <li><a href="https://www.leagueoflegends.com/pt-br/champions/yasuo/" target="_blank" rel="external" >Yasuo</a></li>
+                <li><a href="https://www.leagueoflegends.com/pt-br/champions/zed/" target="_blank" rel="external">Zed</a></li>
+                <li><a href="https://www.leagueoflegends.com/pt-br/champions/ivern/" target="_blank">Ivern</a></li>
+            </ul>
+            <li>Jogo do macaco</li>
+        </ul>
+        <li>Single Player</li>
+        <ul type="disc">
+            <li><a href="pasta1/pag2.html" target="_self" rel="next">Hollow Knight</a></li>
+            <li>Angry Birds</li>
+            <li>CupHead</li>
+        </ul>
+        <li>Mobile</li>
+        <ul type="disc">
+            <li><a href="pasta1/pag3.html" target="_self" rel="next">Angry Birds</a></li>
+            <li>Clash Royale</li>
+            <li>Critical OPS</li>
+    </ol>
+    </ul>
+    <h2>Lista de Definições</h2>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para criação do conteúdo de um site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para criação do design de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criação de interatividade de um site</dd>
+
+ </body>
+ </html>

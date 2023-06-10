@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: lime; /*jeito 2 de fazer o CSS*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag B (não semântico).</p>
+    <p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag STRONG (semântico, o termo fica FORTE, em DESTAQUE).</p>
+    <h2>Itálico/Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântico).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântico).</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: blueviolet;">um texto marcado</mark> usando a tag MARK.</p> <!--jeito 1 de fazer o CSS-->
+    <P>Outro <mark id="m1">texto marcado</mark> com a tag MARK</P>
+    <h2>Texto grande e pequeno</h2>
+    <P>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nese parágrafo.</P>
+    <h2>Texto deletado</h2>
+    Podemos marcar <del>um texto com excluído</del> para indicar que lee deve ser lido, mas não considerado
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto com inserido</ins> para dar uma ênfase e indicar que le foi adicionado depois</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20-1</sup></p>
+    <h2>Texto subescrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte/Pré formatação</h2>
+    <p>O comando <code>document.getElementById('fodase')</code> é escrito em lingugem JavaScript</p>
+    <pre>
+    var n = document.getElementById('fodase')
+    var s = Number(n.value)
+    var res = document.getElementById('res')
+    if(s > 10){
+        res.innerHTML = 'Menor que dez'
+    }else{
+        res.innerHTML = 'Maior ou igual a dez'
+    }
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de uma migo: <q>o computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2>
+    <blockquote cite="URL">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, accusantium quaerat voluptatibus exercitationem nam nesciunt ipsum quas perferendis beatae facilis fuga facere. Quasi iusto voluptatibus iure odio enim fuga laborum.
+    </blockquote>
+    <h2>Abrevições</h2>
+    <P> Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascating Style Sheets">CSS</abbr></P>
+    <h2>Texto invertido</h2>
+    <P><bdo dir="rtl">Estou aprendendo a criar sites</bdo></P>
+
+</body>
+</html>
