@@ -1,2 +1,7 @@
 @charset "UTF-8";
 /*Estilo PAISAGEM*/
+
+body{
+    background: url(../images/cev-landscape.jpg) left bottom no-repeat;
+    background-size: contain;
+}
