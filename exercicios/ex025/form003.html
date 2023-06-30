@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Tesde de select</h1>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado:</label>
+            <select id="iest">
+                <option>--- ESCOLHA ---</option>
+                <optgroup label="OPÇÕES 1">
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                    <option>Opção 3</option>
+                    <option>Opção 4</option>
+                    <option selected>Opção 5</option>
+                </optgroup>
+
+                <optgroup label="OPÇÕES 2">
+                    <option>Opção 1</option>
+                    <option>Opção 2</option>
+                    <option>Opção 3</option>
+                    <option>Opção 4</option>
+                    <option>Opção 5</option>
+                </optgroup>
+            </select>
+        </p>
+        
+        <p>
+            <label for="ibgl">Coisas:</label>
+            <input type="text" name="coisas" id="ibgl" list="ilista">
+            <datalist id="ilista">
+                <option>Negocio 1</option>
+                <option>Negocio 2</option>
+                <option>Negocio 3</option>
+                <option>Negocio 4</option>
+                <option>Negocio 5</option>
+                <option>Negocio 6</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="itxta">Escreva</label><br>
+            <textarea name="txta" id="itxta" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+</body>
+</html>
