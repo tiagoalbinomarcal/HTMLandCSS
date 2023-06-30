@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* FILTRAGEM DAS MEDIA QUERIES
+    W3C SOBRE TYPICAL DEVICE BREAKPOINTS:
+    
+----> Extra small devices (MAX 600px)
+----> Small devices (MIN 600px)
+----> Medium devices (MIN 768px)
+----> Large devices (MIN 992px)
+----> Extra large devices (MIN 1200px)
+========================================================
+        DADOS COLETADOS ATÉ 2023
+*/
+
+/*
+@media screen  and (max-width: 600px){
+
+}                                     JA CONFIGURADO NO MOBILE 1st
+
+@media screen and (min-width: 600px){
+
+}                                     JA CONFIGURADO NO MOBILE 1st
+*/
+@media screen and (min-width: 768px){
+    body{
+        background: url(../images/back-tablet.jpg) center center no-repeat;
+    }
+    img#phone{ display: none}
+    img#tablet{ display: block}
+    img#print{ display: none}
+    img#pc{ display: none}
+    img#tv{ display: none}
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background: url(../images/back-pc.jpg) center center no-repeat;
+    }
+    img#phone{ display: none}
+    img#tablet{ display: block}
+    img#print{ display: none}
+    img#pc{ display: none}
+    img#tv{ display: none}
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background: url(../images/back-tv.jpg) center center no-repeat;
+    }
+    img#phone{ display: none}
+    img#tablet{ display: none}
+    img#print{ display: none}
+    img#pc{ display: none}
+    img#tv{ display: block}
+}

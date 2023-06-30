@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <menu>
+            <span class="material-symbols-outlined" onclick="myFunction()">
+                menu
+                </span>
+            <ul id="lista">
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h1>Testando Media Queries</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis neque pariatur odio nostrum iusto architecto fuga magnam sed incidunt facilis in, a temporibus molestiae eum voluptatum sunt quam exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus, unde impedit dolor sed aliquam voluptatibus officia quia enim voluptate quaerat voluptates ducimus aspernatur doloribus, corrupti culpa fugiat magnam cum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit hic, totam ipsum ut quos dolor cupiditate cum quidem consequatur, quod eligendi odio rerum dolore dicta dignissimos repellendus consectetur porro fugiat?</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis neque pariatur odio nostrum iusto architecto fuga magnam sed incidunt facilis in, a temporibus molestiae eum voluptatum sunt quam exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus, unde impedit dolor sed aliquam voluptatibus officia quia enim voluptate quaerat voluptates ducimus aspernatur doloribus, corrupti culpa fugiat magnam cum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit hic, totam ipsum ut quos dolor cupiditate cum quidem consequatur, quod eligendi odio rerum dolore dicta dignissimos repellendus consectetur porro fugiat?</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis neque pariatur odio nostrum iusto architecto fuga magnam sed incidunt facilis in, a temporibus molestiae eum voluptatum sunt quam exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellendus, unde impedit dolor sed aliquam voluptatibus officia quia enim voluptate quaerat voluptates ducimus aspernatur doloribus, corrupti culpa fugiat magnam cum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit hic, totam ipsum ut quos dolor cupiditate cum quidem consequatur, quod eligendi odio rerum dolore dicta dignissimos repellendus consectetur porro fugiat?</p>
+        </article>
+    </main>
+    
+    <footer>
+        <p>Site desenvolvido a partir da dedicação do autor (eu)</p>
+    </footer>
+
+    <script>
+        function myFunction(){
+            if (lista.style.display == 'none'){
+                lista.style.display = 'block'
+            }else{
+                lista.style.display = 'none'
+            }
+        }
+
+    </script>
+</body>
+</html>
