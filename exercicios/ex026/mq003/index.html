@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --cevazul: #233eff;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body{
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+        }
+
+        h1{
+            color: white;
+            font-family: sans-serif;
+            text-shadow: 2px  2px 2px #0f1a70cd;
+            padding: 10px
+        }
+
+        /*RETRATO*/
+        @media screen and (orientation: portrait){
+        
+        body{
+            background: url(images/cev-portrait.jpg) center bottom no-repeat;
+            background-size: contain;
+        }
+        }
+
+        /*PAISAGEM*/
+        @media screen and (orientation: landscape){
+        body{
+            background: url(images/cev-landscape.jpg) left bottom no-repeat;
+            background-size: contain;
+}
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>
