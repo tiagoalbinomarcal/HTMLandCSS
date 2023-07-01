@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*
+----> Extra small devices (MAX 600px)
+----> Small devices (MIN 600px)
+----> Medium devices (MIN 768px)
+----> Large devices (MIN 992px)
+----> Extra large devices (MIN 1200px)*/
+
+
+@media screen and (min-width: 768px){
+    #icone{ display: none}
+    #lista { display: block}
+    menu > ul > li { display: inline-block}
+    main { width: 768px}
+
+    menu a{
+        border-radius: 4px;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+}
